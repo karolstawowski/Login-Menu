@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+body, html{
+    min-height: 100vh;
+}
+body{
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #1a1a1b;
+    font-family: IBMPlexSans,sans-serif;
+}
+div.container{
+	width: 700px;
+	height: 450px;
+	background-color: orange;
+	margin: 0 auto;
+	margin-top: 200px;
+	border-radius: 6px 5px 5px 6px;
+}
+div.left{
+	width: 155px;
+	float: left;
+}
+div.art{
+    background-image: url("galeria/background.jpg");
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+	border-radius: 5px 0px 0px 5px;
+}
+div.ziok{
+	background-image: url("galeria/Ziok.png");
+	background-repeat: no-repeat;
+    background-size: cover;
+	height: 40px;
+	width: 40px;
+	margin-bottom: 4px;
+}
+b{
+	font-size: 20px;
+}
+div.right1{
+	font-family: Noto Sans,sans-serif;
+	width: 550px;
+	padding-top: 115px;
+	padding-left: 210px;
+}
+div.right2{
+	font-family: Noto Sans,sans-serif;
+	width: 550px;
+	padding-top: 70px;
+	padding-left: 210px;
+}
+a.singup{
+	text-decoration: none;
+	text-color: #0079d3;
+}
+a.login{
+	cursor: pointer;
+	width: 140px;
+	padding: 7px 25px;
+	background-color: #0079d3;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid #2f7ea7;
+
+/*.PageColumns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+.PageColumn__left {
+    width: 156px;
+}
+.Art {
+    background-image: url(https://www.redditstatic.com/accountmanager/bbb5840….png);
+    height: 100vh;
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.PageColumn__right {
+    width: 100%;
+}
