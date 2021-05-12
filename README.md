@@ -1,2 +1,2 @@
 # Login-Menu
-School projekt - a menu to log in.
+School projekt - a simple menu to log in.
